@@ -1,0 +1,5 @@
+# format is:
+<IP_ADDRESS>,<DEVICE_TYPE>,<USER_NAME>,<PASSWORD>,<ENABLE_PASSWORD>
+
+# example:
+# 172.16.1.1,router,netmikoadmin,P@$$w0rD,En@blEP@$$w0rD
