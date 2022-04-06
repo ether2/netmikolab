@@ -1,0 +1,22 @@
+term leng 0
+!
+show ver
+!
+show ip int brief
+!
+show run
+!
+show inventory
+!
+show int status
+!
+show vlan brief
+!
+show mac address
+!
+show proc cpu
+!
+show proc mem
+!
+term leng 24
+!
