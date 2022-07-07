@@ -57,7 +57,7 @@ def open_ssh_conn(ip,device_function,username,password,enable,newfile_dir):
 if __name__ == '__main__':
     device_list = open('device_list.txt','r')
     ip,device_function, = [],[]
-    newfile_dir = "/Users/gmcomie/Desktop/netmiko/%s/"%date.today().strftime("%d-%m-%Y")
+    newfile_dir = "PATH/TO/FILES/%s/"%date.today().strftime("%d-%m-%Y")
     try:
         print("[**task started**] Creating new folder at %s\n"%newfile_dir)
         os.mkdir(newfile_dir)
